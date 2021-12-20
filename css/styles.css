@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap");
 
 * {
   margin: 0;
@@ -8,12 +8,15 @@
 :root {
   /* Primary */
   --pink: hsl(322, 100%, 66%);
-  --lightPink: hsl(321, 100%, 78%);
-  --lightRed: hsl(0, 100%, 63%);
+  --light-pink: hsl(321, 100%, 78%);
+  --light-red: hsl(0, 100%, 63%);
   /* Neutral */
-  --veryDarkCyan: hsl(192, 100%, 9%);
-  --veryPaleBlue: hsl(207, 100%, 98%);
+  --very-dark-cyan: hsl(192, 100%, 9%);
+  --very-pale-blue: hsl(207, 100%, 98%);
+  /* heading font */
+  --font-head: "Poppins", sans-serif;
+  --font-family: "Open Sans", sans-serif;
 }
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--font-family);
 }

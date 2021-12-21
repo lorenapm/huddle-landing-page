@@ -127,6 +127,34 @@ body {
   bottom: 0;
   background-image: url(../images/bg-section-top-mobile-1.svg);
 }
+.section {
+  background-color: var(--very-pale-blue);
+}
+.section__picture {
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 3em;
+}
+.section__img {
+  width: 100%;
+  display: block;
+}
+.section__texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.section__title {
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  padding-bottom: 1em;
+}
+.section__paragraph {
+  width: 90%;
+  max-width: 600px;
+  line-height: 1.5;
+}
 .wave--top {
   left: 0;
   top: 0;

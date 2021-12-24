@@ -16,6 +16,7 @@
   /* heading font */
   --font-head: "Poppins", sans-serif;
   --font-family: "Open Sans", sans-serif;
+  --wave: url(../images/bg-section-top-mobile-1.svg);
 }
 body {
   font-family: var(--font-family);
@@ -125,7 +126,7 @@ body {
 .wave--bottom {
   left: 0;
   bottom: 0;
-  background-image: url(../images/bg-section-top-mobile-1.svg);
+  background-image: var(--wave);
 }
 .section {
   background-color: var(--very-pale-blue);
@@ -161,4 +162,9 @@ body {
 .section--white {
   background-color: white;
   padding-top: 100px;
+}
+.wave--top2 {
+  left: 0;
+  bottom: 0;
+  background-image: url(../images/bg-section-top-mobile-2.svg);
 }
